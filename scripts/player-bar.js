@@ -39,11 +39,8 @@
      const currentTime = player.getTime();
      const duration = player.getDuration();
      const percent = (currentTime / duration) * 100;
-<<<<<<< HEAD
-     const totalTime = (currentTime - duration)
-=======
      const totalTime = (currentTime - duration);
->>>>>>> assignment-14
+
      $('#time-control .current-time').text( currentTime );
      $('#time-control input').val(percent);
      $('#time-control .total-time').text( totalTime );
